@@ -13,7 +13,7 @@ const HomePage = () => {
         <div className="mx-auto overflow-hidden rounded-xl">
           <Image height={600} width={600} src={frog} alt="frog" />
         </div>
-        <h1 className="uppercase font-bold text-gray-700 text-7xl">Junior Software Engineer</h1>
+        <h2 className="uppercase font-bold text-gray-600 text-5xl">Junior Software Engineer</h2>
         <p className="text-gray-600 text-xl max-w-sm mx-auto">
           Hey! My name is George, I'm 35 years old, live in Bristol and have a passion for development. I'm currently on the road to becoming a full stack software engineer 
           and would like to specialise in the backend. I am familiar with technologies such as javascript, express, node, react, python and django.
