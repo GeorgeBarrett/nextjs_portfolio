@@ -67,8 +67,8 @@ const Navbar = () => {
                 >    
                     <div className={
                         navigation
-                        ? "left-0 fixed top-0 w-4/5 h-full bg-gradient-to-r from-black to-gray-600 text-white p-10 ease-in duration-500"
-                        : "fixed top-0 left-[-100%] p-10 h-full ease-in duration-500"}>
+                        ? "left-0 fixed top-0 w-4/5 h-full bg-gradient-to-r from-black to-gray-600 text-white p-4 ease-in duration-500"
+                        : "fixed top-0 left-[-100%] p-4 h-full ease-in duration-500"}>
                 
                     <div>
                         <div className="flex w-full items-center justify-between">
@@ -81,6 +81,33 @@ const Navbar = () => {
                         </div>
                     </div>
 
+                    <div className="mt-24 flex flex-col h-fit gap-20">
+                        <ul className="w-5 uppercase">
+
+                            {links.map(({id, link}) => (
+                                <Link key={id} href={`/#${link}`}>
+                                    <li className="py-4 text-2xl tracking-wider cursor-pointer">{link}</li>
+                                </Link>
+                            ))}
+
+                        </ul>
+
+                        <div>
+                            <div className="grid grid-cols-1 mx-auto w-2/5 gap-10">
+                                <div href="" className="flex items-center justify-center rounded-md shadow-md shadow-white p-3 cursor-pointer">
+                                    <Link href="https://github.com/GeorgeBarrett">
+                                        <FaGithub size={25}/>
+                                    </Link>
+                                </div>
+                                <div className="flex items-center justify-center rounded-md shadow-md shadow-white p-3 cursor-pointer">
+                                    
+                                        <FaLinkedin size={25}/>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>                    
         </div>
