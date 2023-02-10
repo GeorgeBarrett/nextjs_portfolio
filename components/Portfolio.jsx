@@ -49,7 +49,7 @@ const Portfolio = () => {
                         <Link key={id} href={`/portfolio/${url}`}>
 
                             <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md">
-                                <Image height={600} width={600} src={imageSrc} alt={title} className="rounded-md duration-200 hover:scale-105" />
+                                <Image height="500" width="500" src={imageSrc} alt={title} className="rounded-md duration-200 hover:scale-105" />
                                 <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
                                     {title}
                                 </h2>
@@ -59,8 +59,8 @@ const Portfolio = () => {
                     ))}
                 </div>
                 
-                <div className="flex items-center justify-center">
-                    <Link href="/#portfolio">
+                <div className="flex items-center justify-center mt-11">
+                    <Link href="/portfolio">
                         <div className="group flex items-center justify-center my-8 bg-black text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider">
                             All projects
                         <span className="-rotate-90 duration-100 ease-in group-hover:translate-x-5">
