@@ -17,10 +17,10 @@ const Contact = () => {
               <div className="w-full md:w-1/2 h-full rounded-md p-4">
                 
                 <Image src={contact} alt="retro phone" className="rounded-md" />
-                <p className="pt-2 pb-8">
+                <p className="pt-2 pb-8 mt-8">
                   Please don't hesitate to get in contact using my contact form oolala. I love coding, team-work, problem solving and want to continualy better myself both as a coder and as a jedi.
                 </p>
-                <div className="grid grid-cols-2 mx-auto w-2/5 gap-10">
+                <div className="grid grid-cols-2 mx-auto w-2/5 gap-10 mt-7">
                   <div className="flex items-center justify-center rounded-md shadow-md shadow-black p-3 cursor-pointer hover:scale-105 duration-200">
                     <Link href="https://github.com/GeorgeBarrett">
                       <FaGithub size={30}/>
@@ -38,7 +38,7 @@ const Contact = () => {
                   <form action="https://getform.io/f/28aefd53-2032-4b70-a4b8-345cf1747005" method="POST">
                     <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                       
-                      <div className="flex flex-col">
+                      <div className="flex flex-col col-span-2">
                         <label className="capitalize text-sm py-2 text-slate-600 font-light">
                           name
                         </label>
@@ -47,7 +47,7 @@ const Contact = () => {
                         />
                       </div>
 
-                      <div className="flex flex-col">
+                      <div className="flex flex-col col-span-2">
                         <label className="capitalize text-sm py-2 text-slate-600 font-light">
                           phone
                         </label>
