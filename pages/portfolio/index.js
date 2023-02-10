@@ -6,8 +6,8 @@ import driedFruit from '../../public/assets/driedFruit.jpg';
 import lpthw from '../../public/assets/lpthw.jpg'
 import weatherApp from '../../public/assets/weatherApp.jpg';
 
-const allProjects = () => {
-  
+export const getStaticProps = async () => {
+
     const portfolios = [
         {
             id: 1,
@@ -22,19 +22,28 @@ const allProjects = () => {
             url: ""
         },
         {
-            id: 1,
+            id: 3,
             title: "vanilla javascript dried fruit shop",
             imageSrc: driedFruit,
             url: ""
         },
         {
-            id: 1,
+            id: 4,
             title: "javascript weather app",
             imageSrc: weatherApp,
             url: ""
         },
-    ]
+    ];
+
+    return {
+        props: {portfolios}
+    }
+
+}
+
+const allProjects = ({portfolios}) => {
   
+    
     return (
         <div id="portfolio" className="w-full">
             <div className="max-w-screen-xl mx-auto pt-36 p-4 text-center md:text-left">
