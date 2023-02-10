@@ -5,6 +5,7 @@ import api from '../../public/assets/api.jpg';
 import driedFruit from '../../public/assets/driedFruit.jpg';
 import lpthw from '../../public/assets/lpthw.jpg'
 import weatherApp from '../../public/assets/weatherApp.jpg';
+import { BiChevronLeft } from 'react-icons/bi';
 
 export const getStaticProps = async () => {
 
@@ -47,6 +48,15 @@ const allProjects = ({portfolios}) => {
     return (
         <div id="portfolio" className="w-full">
             <div className="max-w-screen-xl mx-auto pt-36 p-4 text-center md:text-left">
+                
+                <div className="flex">
+                    <Link href="/">
+                        <div className="flex items-center justify-center my-8 text-black font-bold capitalize cursor-pointer">
+                            <BiChevronLeft size={25} /> back
+                        </div>
+                    </Link>
+                </div>
+                
                 <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-black font-bold pb-16">portfolio</h2>
 
                 <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
