@@ -1,5 +1,4 @@
 import React from 'react';
-import css from 'styled-jsx/css';
 import django from '../public/assets/experience/django.jpg';
 import html from '../public/assets/experience/html.jpg';
 import javascript from '../public/assets/experience/javascript.jpg';
@@ -84,7 +83,7 @@ const Experience = () => {
                         
                         <div key={id} className=" flex flex-col lg:flex-col gap-10 lg:gap-0 items-center justify-between p-6 shadow-xl rounded-md hover:scale-105 ease-in duration-300">
                             
-                            <Image src={src} width="64px" height="64px" alt={title} />
+                            <Image src={src} width="50px" height="50px" alt={title} />
                             <h3 className="font-light">{title}</h3>
 
                         </div>
