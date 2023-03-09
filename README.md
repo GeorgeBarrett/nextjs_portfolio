@@ -10,11 +10,13 @@ the build used react/next.js, tailwind, and react-icons
 
 need to deploy projects and add links to the demo button (this button is viewed when a user clicks on one of my projects)
 
-the website is fully operational but there is an error message to do with unique keys. i will look into this
+the website is fully operational but there is an error message to do with unique keys. i will amend this
 
-the project images are different sizes. this needs to be corrected for style continuity
+the project images are different sizes in the portfolio section. this needs to be corrected for style continuity
 
-the page that displays individual projects needs some image styling
+the page that displays individual projects needs some styling
+
+i have recently changed some repository names and this has affecting some of the links. i will amend this
 
 ## git
 
