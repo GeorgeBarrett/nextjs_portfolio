@@ -14,25 +14,25 @@ const Portfolio = () => {
             id: 1,
             title: "learn python the hard way",
             imageSrc: lpthw,
-            url: ""
+            url: "lpthw"
         },
         {
             id: 2,
             title: "django rest api",
             imageSrc: api,
-            url: ""
+            url: "django_rest_api"
         },
         {
-            id: 1,
+            id: 3,
             title: "vanilla javascript dried fruit shop",
             imageSrc: driedFruit,
-            url: ""
+            url: "bizarre_bazaar"
         },
         {
-            id: 1,
+            id: 4,
             title: "javascript weather app",
             imageSrc: weatherApp,
-            url: ""
+            url: "weather_app"
         },
     ]
     
