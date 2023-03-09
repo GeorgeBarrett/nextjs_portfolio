@@ -16,8 +16,6 @@ the project images are different sizes in the portfolio section. this needs to b
 
 the page that displays individual projects needs some styling
 
-i have recently changed some repository names and this has affecting some of the links. i will amend this
-
 ## git
 
 a solid foundation in git was used thoughout the project
