@@ -30,7 +30,7 @@ const Portfolio = () => {
         },
         {
             id: 4,
-            title: "javascript weather app",
+            title: "next.js weather app",
             imageSrc: weatherApp,
             url: "weather_app"
         },
