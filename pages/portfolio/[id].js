@@ -27,13 +27,13 @@ const portfolios = [
         id: 3,
         title: "vanilla javascript dried fruit shop",
         imageSrc: driedFruit,
-        url: "bizarre-bazaar"
+        url: "bizarre_bazaar"
     },
     {
         id: 4,
-        title: "javascript weather app",
+        title: "next.js weather app",
         imageSrc: weatherApp,
-        url: "weather-app"
+        url: "weather_app"
     },
 ];
 
